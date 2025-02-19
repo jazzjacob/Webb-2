@@ -25,7 +25,9 @@
 				$name = "Jacob";
 				$age = 27;
 				
+				// There is a difference between using single or double quotation marks.
 				print("<p>Hello I am $name and I am $age years old.</p>");
+				print ('<p>Hello I am $name and I am $age years old.</p>');
 			?>
 		</pre>
 	</p>
