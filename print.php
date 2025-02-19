@@ -14,6 +14,19 @@
 		<?php
 			// This is a multiline comment
 			print("<a href=\"phpinfo.php\">php info</a>")
+			
 		?>
+		
+		<pre>
+			<?php
+				// Show the value of the $_SERVER variable
+				print_r($_SERVER);
+				
+				$name = "Jacob";
+				$age = 27;
+				
+				print("<p>Hello I am $name and I am $age years old.</p>");
+			?>
+		</pre>
 	</p>
 </body>
