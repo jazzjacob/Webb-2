@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	</head>
+	<body>
+		<div>
+			<p>Fill out this form to calculate the total cost:</p>
+			<form action="handle_calc.php" method="post">
+			<p>
+				<label for="price">Price:</label>
+				<input type="number" name="price" step="any" />
+			</p>
+			<p>
+				<label for="quantity">Quantity:</label>
+				<input type="number" name="quantity"/>
+			</p>
+			<p>
+				<label for="discount">Discount:</label>
+				<input type="number" name="discount" />
+			</p>
+			<p>
+				<label for="tax">Tax:</label>
+				<input type="number" name="tax" />
+				<label for="tax">(%)</label>
+			</p>
+			<p>
+				<label for="shipping">Shipping:</label>
+				<select name="shipping">
+					<option value="5.00">Slow and steady.</option>
+					<option value="8.95">Put a move on it.</option>
+					<option value="19.36">I need it yesterday!</option>
+				</select>
+			</p>
+			<p>
+				<label for="payments">Number of payments:</label>
+				<input type="number" name="payments" />
+			</p>
+			<p>
+				<input type="submit" />
+			</p>
+			</form>
+		</div>
+	</body>
+</html>
