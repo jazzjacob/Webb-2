@@ -9,5 +9,6 @@
 			<input type="text" name="name" />
 			<input type="submit" value="Send my feedback!" />
 		</form>
+		<a href="handle_get.php?name=Hassan">Hassan</a>
 	</body>
 </html>
