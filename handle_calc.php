@@ -21,10 +21,11 @@
 			$_taxrate = ($_tax / 100) + 1;
 		
 			
-			$_total_cost = $_total_cost * $_taxrate;
+			$_total_cost = round($_total_cost * $_taxrate, 2);
 			
 			
 			$_monthly_payment = $_total_cost / $_number_of_payments;
+			$_monthly_payment = round($_monthly_payment, 2);
 		
 			
 			print("
